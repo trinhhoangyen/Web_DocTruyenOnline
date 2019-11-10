@@ -1,0 +1,282 @@
+/* CSS Document */
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.hidden {
+	overflow:hidden;
+}
+.padmar {
+	padding:0;
+	margin:0;
+}
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+li {
+	list-style-type:none;
+}
+body {
+	background-color:#f7f6f3;
+	margin:0;
+	padding:0;
+}
+/* CSS banner */
+div.banner {
+	background-image:url(../../imgs/banner.jpg);
+	height:100px;
+}
+#logo {
+	height: 100px;
+	width:100px;
+	float:left;
+}
+div.banner > div > h1  {
+	text-shadow:3px 3px #999;
+	text-transform:uppercase;
+	line-height:100px;
+	margin:0;
+	font-size:50px;
+	color:#9ff;
+}
+div.input {
+	margin:35px 20px;
+	padding:0;
+}
+div.input a > input {
+	width:100%;
+	border-radius:10px;
+	min-height:36px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.2;
+	cursor:pointer;
+	font-family: sans-serif;
+	margin-bottom:5px;
+	border-style:solid;
+}
+/* CSS menu */
+div.menu {
+	background-color:#3d9970;
+	line-height:40px;
+}
+div.menu > ul > li {
+	float:left;
+	border-right: 1px solid white;
+	min-width:200px;
+	text-align:center;
+	box-shadow: 0 5px 10px rgba(50,50,50,.28);
+}
+div.menu > ul > li:hover{
+	background-color:#327C5B;
+}
+div.menu > ul > li > a { 
+	color:#FFF;
+	font-size:20px;
+}
+div.menu > ul > li > a:hover {
+	color:#ff0;
+	font-size:23px;
+}
+div.menu input[type=text] {
+	width:350px;
+	height:18px;
+}
+div.search img {
+	width:18px;
+}
+ul.inMini > li > a{
+	color:#000;
+	background-color:#FFF;
+	display:block;
+	border: 1px solid #666;
+	border-top:none;
+	min-width:200px;
+}
+ul.inMini > li > a:hover{
+	color:#FF0;
+	background-color:#066;
+	text-decoration:underline;
+}
+ul.inMini{
+	visibility:hidden;
+	position:absolute;
+	opacity:0;
+	transition:visibility 0s, opacity 1s;
+	text-align:left;
+}
+li.mini:hover ul.inMini{
+	visibility:visible;
+	opacity:1;
+}
+/*CSS header*/
+div.header {
+	background-image:url(../../imgs/book/book5.jpg);
+	background-position:top;
+	background-size:cover;
+	height:250px;
+	width:100%;
+}
+div.subheader {
+	width:60%;
+	margin:0 auto;
+	height:100%;
+}
+div.subheader > img {
+	width: 23%;
+	margin-top:2%;
+}
+#info {
+	float:left;
+	width:73%;
+	padding:10% 0 0 3%;
+}
+#info > h1 {
+	margin-top:3%;
+}
+#info > span {
+	padding-right:10px;
+}
+#avt {
+	width:50px;
+	height:50px;
+	border-radius:50px;
+	float:left;
+	margin-right:10px;
+}
+div#author {
+	padding-top:10px;
+}
+/*CSS body*/
+div.body {
+	width:60%;
+	margin:0 auto;
+	background-color:#FFF;
+}
+div.control input {
+	background-color:#f89b33;
+	color:#FFF;
+	border-style:none;
+	border-radius:10px;
+	line-height:35px;
+	min-width:120px;
+	cursor:pointer;
+	font-size:17px;
+	font-family:sans-serif;
+	font-weight:600;
+	margin:10px 0 0 20px;
+}
+div.description {
+	width:100%;
+}
+div.description > p {
+	width:90%;
+	margin:20px auto;
+	font-size:18px;
+	word-spacing:4px;
+}
+div.kind {
+	display:block;
+}
+div.kind > ul > li {
+	float:left;
+	border-radius:30px;
+	padding: 6px 15px 5px 15px;
+    margin: 0 6px 4px 0;
+    min-width: 60px;
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+	text-align:center;
+	cursor:pointer;
+}
+div#list {
+	padding:30px;
+}
+div.list {
+	width:50%;
+	margin: 60px auto;
+	box-shadow: 0 5px 10px rgba(50,50,50,.28);
+}
+div#list > ul {
+	padding:0;
+}
+div#list > ul > li > a{
+	line-height:30px;
+	color:#000;
+	font-size:18px;
+	font-weight:600;
+}
+div#list > ul > li > a:hover{
+	color:#F00;
+}
+div#like {
+	box-shadow: 0 5px 10px rgba(50,50,50,.28);
+	font-family:inherit;
+	color:#555;
+}
+div.row {
+	height:280px;
+	margin:30px 0;
+}
+div.item {
+	width:21%;
+	height:100%;
+	padding:0 2%;
+}
+div.item > img {
+	width:100%;
+	height:100%;
+	box-shadow:0 5px 10px rgba(50,50,50,.28);
+}
+div.item > div.note {
+	max-width:186px;
+	margin-top:50px;
+	background-color:#9FF;
+	color:#DE3301;
+	font-size:20px;
+	visibility:hidden;
+	position:absolute;
+	opacity:0;
+	transition:visibility 1s, opacity 1s;
+	text-align:left;
+}
+div.item:hover div.note{
+	visibility:visible;
+	opacity:1;
+}
+div.item > img:hover {
+	opacity:0.2;
+}
+/* CSS footer*/
+div.footer > ul > li > a {
+	color:#F60;
+	font-family:sans-serif;
+	font-weight:600;
+	text-align:center;
+	font-size:15px;
+}
+div.footer > ul > li:last-child a{
+	color:#999;
+}
+div.footer > ul > li {
+	float:left;
+	margin-left:20px;
+	line-height:30px;
+	min-width:10%;
+}
+div.footer {
+	margin:10px 50px 30px;
+}
+div.footer > a {
+	position:fixed;
+	bottom: 10px;
+	right: 10px;
+}
+div.footer > a img {
+	width: 80%;
+	overflow: hidden;
+}

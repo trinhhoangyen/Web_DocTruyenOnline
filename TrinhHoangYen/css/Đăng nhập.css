@@ -1,0 +1,205 @@
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.hidden {
+	overflow:hidden;
+}
+.padmar {
+	padding:0;
+	margin:0;
+}
+a {
+	text-decoration:none;
+	cursor:pointer;
+}
+li {
+	list-style-type:none;
+}
+body {
+	background-image:url(../imgs/background_dangnhap.jpg);
+	background-position:center;
+	background-attachment:fixed;
+    background-size:cover;
+}
+/* CSS main */
+div.main {
+	background-color:white;
+	margin-bottom: 67px;
+    margin-top: 48px;
+    min-height: 533px;
+	left: 50%;
+	position: absolute;
+    transform: translateX(-50%);
+	border-radius:20px;
+	width:400px;
+}
+/* CSS first */
+#logo > img{
+	background-color:#003;
+	width:110px;
+	left:50%;
+	position:relative;
+    transform: translateX(-50%);
+	border-radius:150px;
+	margin:10px 0 0;
+}
+div.open {
+	margin:5px 10px 20px;
+}
+div.open > h1{
+	color:#555;
+	font-weight:600;
+	font-family:sans-serif;
+	text-align:center;
+	padding-bottom:5px;
+	font-size:30px;
+}
+div.open > p {
+	font-size:20px;
+	color:#CCC;
+	font-weight:bold;
+	line-height:24px;
+	text-align:center;
+}
+/*CSS signup*/
+#signup {
+	padding:0 70px;
+}
+#email, #pass {
+	width:260px;
+	height:35px;
+	margin-top:10px;
+	color:#999;
+	border-radius:5px;
+	border-width:0.5px;
+	border:1px solid;
+	text-indent:15px;
+	font-size:16px;
+}
+#continue {
+	cursor:pointer;
+	border-radius:5px;
+	margin-top:10px;
+	background-color:#B11822;
+	color:#FFF;
+	width:260px;
+	height:35px;
+	border:none;
+	font-size:16px;
+	font-family:sans-serif;
+}
+#signup > p {
+	width:260px;
+	text-align: center;
+    color:#333;
+    font-weight: bold;
+	font-size:16px;
+	margin:10px 0;
+}
+#fb, #gg {
+	display:block;
+	cursor:pointer;
+	width:260px;
+	height:40px;
+	border:none;
+	margin-bottom:10px;
+	background-color: #03C;
+	color:#FFF;
+	font-family:sans-serif;
+	font-size:18px;
+}
+#signup > span {
+	width:260px;
+	font-size:13px;
+	color:#999;
+	font-family:sans-serif;
+}
+#signup > span > a {
+	color:#333;
+	font-weight:bold;
+}
+div.end {
+	background-color:#D6D6D6;
+	margin-top:20px;
+	text-align:center;
+	line-height:50px;
+	font-size:16px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+div.end > a{
+	color:#333;
+}
+/*CSS input button*/
+div.button{
+    width: 130px;
+	height:70px;
+	margin:48px 24px 0 0;
+	right:0;
+	position:fixed;
+}
+div.button > input, div.return input{
+	background-color:#f7f6f3;
+	padding:8px 14px;
+	margin:0;
+	width:100%;
+	border-style:solid;
+	border-radius:5px;
+	cursor:pointer;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+}
+div.return {
+	width: 160px;
+	height:70px;
+	margin:48px 0 0 24px;
+	position:fixed;
+}
+/*CSS note*/
+#covernote {
+	position:fixed;
+	bottom:0;
+	right:0;
+	margin-right:150px;
+	margin-bottom:80px;
+	width:250px;
+	height:250px;
+	background-color:#b11822;
+	border-radius: 50% 50% 50% 10%;
+}
+#note {
+	color:#FFF;
+	font-size:30px;
+	padding:30px;
+}
+/* CSS footer*/
+div.footer > ul > li > a {
+	color:#F60;
+	font-family:sans-serif;
+	font-weight:600;
+	text-align:center;
+	font-size:17px;
+}
+div.footer > ul > li:last-child a{
+	color:#666;
+}
+div.footer > ul > li {
+	float:left;
+	margin-left:20px;
+	line-height:30px;
+	min-width:10%;
+}
+div.footer {
+	bottom:5px;
+	left:0;
+	text-align:center;
+	margin:10px 50px 30px;
+	position:fixed;
+	width:100%;
+	margin-bottom:6px;
+}

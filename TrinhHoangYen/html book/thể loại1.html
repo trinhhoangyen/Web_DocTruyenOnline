@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cổ đại</title>
+    <link href="../css/book/thể loại.css" rel="stylesheet"/>
+    <link href="../imgs/book.png" rel="shortcut icon"/>
+    <script src="../js/thể loại.js"></script>
+</head>
+
+<body>
+<div class="container pamar">
+<div class="banner hidden">
+    <div class = "left">
+        <img  id="logo" src="../imgs/logo.png" />
+        <h1 class="left">Đọc Truyện</h1>
+    </div>
+    <div class="input right">
+        <a href="../Đăng nhập.html"><input type="button" value="👤 Đăng nhập"/></a>
+    </div>
+</div>
+<hr width="100px" size="2px" align="center" color="#FFFFFF" class="padmar" />
+<div class="menu hidden">
+    <ul class="padmar">
+        <li>
+            <a href="../Trang chủ.html">🏠 Trang chủ</a>
+        </li>
+        <li class="mini">
+            <a href="#">Thể loại ⏬</a>
+            <ul class="inMini padmar">
+                <li><a href="thể loại1.html">➡ Cổ đại</a></li>
+                <li><a href="thể loại2.html">➡ Xuyên không</a></li>
+                <li><a href="thể loại3.html">➡ Ngôn tình</a></li>
+                <li><a href="thể loại1.html">➡ Nữ cường</a></li>
+                <li><a href="thể loại2.html">➡ Trinh thám</a></li>
+                <li><a href="thể loại3.html">➡ Kinh dị</a></li>
+                <li><a href="thể loại1.html">➡ Teen</a></li>
+                <li><a href="thể loại1.html">➡ Hài hước</a></li>
+            </ul>
+        </li>
+        <li class="mini">
+            <a href="#">Danh sách ⏬</a>
+            <ul class="inMini padmar">
+                <li><a href="../Truyện được chia sẻ nhiều nhất.html">➡ Hot</a></li>
+                <li><a href="../Truyện Mới Cập Nhật.html">➡ Mới cập nhật</a></li>
+                <li><a href="../Truyện đã hoàn thành.html">➡ Full</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="search right">
+        <input type="text" placeholder="Tìm kiếm truyện & tác giả"/>
+        <a href="#"><img src="../imgs/search.png" /></a>
+    </div>
+</div>
+<div class="main padmar">
+    <div class="header padmar">
+        <h1>Cổ đại</h1>
+        <ul class="option">
+            <li id="hot-header" onClick="hotshow(this)">Hot</li>
+            <li id="care-header" onClick="careshow(this)">Đang được quan tâm</li>
+            <li id="new-header" onClick="newshow(this)">Mới</li>
+        </ul>
+    </div>
+    <div class="kind">
+        <ul class="kind">
+            <li style="background-color:#F82121;color:#6B0101">Ngôn tình</li>
+            <li style="background-color:#CF3; color:#930">HE</li>
+            <li style="background-color:#09F;color:#003">Xuyên không</li>
+            <li style="background-color:#C60;color:#70230A">Nữ cường</li>
+        </ul>
+    </div>
+    <div class="list">
+        <div id="hot">
+            <ul class="list">
+                <li class="left" >
+                    <a class="list-left left" href="Book1.html"><img class="book" src="../imgs/book/book1.jpg" alt="Book1"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="Book1.html">Sở Kiều Truyện( Hoàng phi sở đặc công số 11)</a></h3>
+                        <p class="padmar">
+                            Tác giả: Tiêu Tương Đông Nhi <br />
+                            Thể loại: Xuyên không, cổ đại, nữ cường nam cường, HE <br />
+                            Độ dài: 191 chương + 13 ngoại truyện <br />
+                            Nguồn: thuynguyetdai.com <br />
+                            [Nội dung giản lược]
+                            Từ một đặc công trong sở tình báo trở thành một nô lệ thời phong kiến. Từ một nô lệ thời phong kiến trở thành một tướng quân tài ba nổi danh khắp đại lục. Nhưng đằng sau những biến chuyển của... <br />
+                        </p>
+                        <span class="status">&nbsp;Đã Hoàn Thành&nbsp;</span>
+                    </div>
+                </li>
+                <li class="left">
+                    <a class="list-left left hidden" href="book2.html"><img class="book" src="../imgs/book/book2.jpg" alt="Book2"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="book2.html">Yêu Em Từ Cái Nhìn Đầu Tiên</a></h3>
+                        <p class="padmar">
+                            Tác giả: Cố Mạn <br />
+                            Thể loại: Hiện đại, tiểu thuyết, ngôn tình <br />
+                            Độ dài: 48 chương + 7 ngoại truyện <br />
+                            [Nội dung giản lược]
+                            Yêu em từ cái nhìn đầu tiên thắp lên những ước mơ tình yêu giản dị của những người trẻ, nó lôi cuốn độc giả bằng đề tài mới mẻ, cốt truyện hấp dẫn, tuyến nhân vật phong phú, tính cách đa dạng,...<br />
+                        </p>
+                        <span class="status">&nbsp;Đang Cập Nhật&nbsp;</span>
+                    </div>
+                </li>
+                <li class="left">
+                    <a class="list-left left hidden" href="book3.html"><img class="book" src="../imgs/book/book3.jpg" alt="Book3"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="book3.html">Đạo Tình</a></h3>
+                        <p class="padmar">
+                            Tác giả: Chu Ngọc <br />
+                            Thể loại: Hiện đại, tiểu thuyết , lãng mạn<br />
+                            Độ dài: 118 chương + 5 ngoại truyện <br />
+                            [Nội dung giản lược]
+                            Tác phẩm là thế giới của xã hội đen,..Hắn đưa cô vào thế giới của hắn. Không chiến, hải chiến, dã chiến... Dù đứng giữa sống và chết cũng không từ bỏ nhau. Nếu đó không phải là yêu, thì thế nào là yêu?"<br />
+                        </p>
+                        <span class="status">&nbsp;Đã Hoàn Thành&nbsp;</span>
+                    </div>
+                </li>
+        	</ul>
+        </div>
+        <div id="care">
+        	<ul class="list padmar">
+                <li class="left" >
+                    <a class="list-left left hidden" href="book4.html"><img class="book" src="../imgs/book/book4.jpg" alt="Book4"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="book4.html">Mãi Mãi Là Bao Xa</a></h3>
+                        <p class="padmar">
+                            Tác giả: Diệp Lạc Vô Tâm <br />
+                            Thể loại: Hiện đại, ngôn tình, tiểu thuyết <br />
+                            Độ dài: 69 chương( full + ngoại truyện) <br />
+                            Nhân vật chính: Dương Lam Hàng, Bạch Lăng Lăng <br />
+                            Nhân vật phụ: Trịnh Minh Hạo, Uông Dào, Quan Tiểu Úc...<br />
+                        </p>
+                        <span class="status">&nbsp;Đang Cập Nhật&nbsp;</span>
+                    </div>
+                </li>
+                <li class="left">
+                    <a class="list-left left hidden" href="book5.html"><img class="book" src="../imgs/book/book5.jpg" alt="Book5"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="book5.html">Đông Cung</a></h3>
+                        <p class="padmar">
+                            Tác giả: Phỉ Ngã Tư Tồn <br />
+                            Thể loại: Ngôn Tình, Cung Đấu, Nữ Cường, Cổ Đại, Ngược<br />
+                            [Nội dung giản lược]
+                            Nàng, vốn là cửu công chúa của Tây Lương quốc, ở Tây Lương nàng được vô vàn ân sủng, chỉ vì cầu thân mới phải lên đường đến Trung Nguyên.<br/>
+Hắn, thân là đương kim thái tử, địa vị chỉ khom lưng dưới một người mà đứng trên cả ngàn vạn kẻ khác, vì hôn nhân chính trị, bất đắc dĩ mới phải lấy công chúa của dị quốc.<br />
+                        </p>
+                        <span class="status">&nbsp;Đang Cập Nhật&nbsp;</span>
+                    </div>
+                </li>
+                
+                <li class="left">
+                    <a class="list-left left hidden" href="#"><img class="book" src="../imgs/book/book6.jpg" alt="Book6"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="#">Thất Tịch Không Mưa</a></h3>
+                        <p class="padmar">
+                            Tác giả:Lâu Vũ Tình <br />
+                            Dịch giả: Jini Cẩm Ninh<br />
+                            Thể loại: Ngôn tình, hiện đại, SE  <br />
+                            Độ dài: 1 tập + 17 chương( bản xuất bản) <br />
+                            Thất tịch: Mùng 7 tháng 7 âm lịch, chính là lễ Valentine của Trung Quốc. Nhân vật nữ chính của chúng ta sinh ..<br />
+                        </p>
+                        <span class="status">&nbsp;Đang Cập Nhật&nbsp;</span>
+                    </div>
+                </li>
+        </ul>
+        </div>
+        <div id="new">
+        	<ul class="list padmar">
+                <li class="left">
+                    <a class="list-left left hidden" href="#"><img class="book" src="../imgs/book/book8.jpg" alt="Book8"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="#">Mười Tội Ác</a></h3>
+                        <p class="padmar">
+                            Tác giả: Tri Thù<br />
+                            Thể loại: Kinh dị, trinh thám, hiện đại<br />
+                            Độ dài: 10 phần( 1 dẫn + 5 chương )/ 1 phần<br />
+                            Bộ tiểu thuyết trinh thám Mười tội ác của tác giả Tri Thù điều tra về 10 vụ án kinh thiên động địa được dựa trên nguyên mẫu 10 vụ án có thật từng gây chấn động toàn Trung Quốc vừa được phát hành tại Việt Nam. <br />
+                        </p>
+                        <span class="status">&nbspĐã Hoàn Thành&nbsp;</span>
+                    </div>
+                </li>
+                <li class="left">
+                    <a class="list-left left hidden" href="#"><img class="book" src="../imgs/book/book7.jpg" alt="Book7"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="#">Vân Tịch Truyện</a></h3>
+                        <p class="padmar">
+                            Tên gốc: 天才小毒妃<br /> 
+                            Tác giả:Giới Mạt <br />
+                            Edit/Dịch: Emily Ton<br />
+                            Thể loại: Ngôn tình, xuyên không, nữ cường, cổ đại <br />
+                            Độ dài: 160 chương <br />
+                            [Nội dung giản lược]
+                            Nàng là thế gia y học hèn mọn phế tài xấu nữ, bị người khinh mạt..<br />
+                        </p>
+                        <span class="status">&nbsp;Đã Hoàn Thành&nbsp;</span>
+                    </div>
+                </li>
+                <li class="left">
+                    <a class="list-left left hidden" href="#"><img class="book" src="../imgs/book/book9.jpg" alt="Book9"/></a>
+                    <div class="list-right left padmar">
+                        <h3 class="padmar"><a href="#">Tam Sinh Tam Thế Thập Lý Đào Hoa</a></h3>
+                        <p class="padmar">
+                            Tác giả: Đường Thất Công Tử <br />
+                            Thể loại: Huyền huyễn, HE, ngôn tình cổ đại <br />
+                            Độ dài: 23 chương + 7 ngoại truyện <br />
+                            Edit: Giang Phương<br />
+                            Dòng tộc nhà Bạch Đế Hồ Quân sinh ra được bốn người con trai và một nữ nhân duy nhất,..<br />
+                        </p>
+                        <span class="status">&nbsp;Đã Hoàn Thành&nbsp;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="footer hidden">
+	<ul class="padmar" >
+    	<li><a href="#">Tải ứng dụng</a></li>
+        <li><a href="#">Ngôn ngữ</a></li>
+        <li><a href="#">Giới thiệu</a></li>
+        <li><a href="#">Kinh doanh</a></li>
+        <li><a href="#">Báo chí</a></li>
+        <li><a href="#">Bảo mật</a></li>
+        <li><a href="#">Trợ giúp</a></li>
+        <li><a href="#">&copy;2018Truyện</a></li>
+    </ul>
+    <a href='#' id="btt" title="Back to top"><img src="../imgs/back to top.png" alt="back to top"/></a></div>
+</div>
+<!--đóng container--></div>
+</body>
+</html>
